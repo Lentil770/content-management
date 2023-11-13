@@ -1,0 +1,184 @@
+/* Fonts */
+@font-face {
+  font-family: "sharpBookRegular19";
+  src: url(fonts/SharpGroteskBook19-Regular.ttf);
+}
+
+@font-face {
+  font-family: "sharpBookRegular25";
+  src: url(fonts/SharpGroteskBook25-Regular.ttf);
+}
+
+@font-face {
+  font-family: "sharpBookRegular20";
+  src: url(fonts/SharpGroteskBook20-Regular.ttf);
+}
+
+
+
+body{
+  background-color: white !important;
+}
+.bg-light{
+  background-color: white !important;
+  --bs-bg-opacity: 0 !important;
+}
+
+.sharpBook19{
+  font-family: "sharpBookRegular19";
+  /* font-size: 17px; */
+}
+.sharpBook20{
+  font-family: "sharpBookRegular20";
+}
+/* Navbar styling */
+.navv{
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  border-bottom: 1px rgba(128, 128, 128, 0.365) solid;
+}
+.nav-link{
+  color: black ! important;
+}
+.navText{
+  color: black;
+  font-family: "sharpBookRegular20";
+  font-size: 20px;
+}
+.optionsLeft{
+  padding-right:50px !important;
+  margin-left: auto;
+}
+.wrapper {
+  margin-right: auto; 
+  margin-left:  auto;
+  max-width: 1100px; 
+  padding-right: 10px; 
+  padding-left:  10px; 
+}
+.nav3{
+  margin-left: -10px;
+}
+
+/* Home page */
+.mainHome{
+  /* text-align: center; */
+  padding-top: 100px;
+}
+/* .homeText{
+
+} */
+
+
+/* Library page */
+.booksButton{
+  padding-top: 10px;
+}
+.searchBtn{
+  border: 1px solid #ced4da;
+  border-radius: 0.35rem;
+  color: #212529;
+}
+.booksH2{
+  /* background-color: #dee2e6;  */
+  margin: 0; 
+  padding:0.1em; 
+  /* border-bottom: 1px black solid; */
+}
+
+.bookHeader{
+  padding-bottom: 20px;
+}
+.margLeft{
+  margin-left: 14px;
+}
+.marLeft{
+  margin-left: -9px;
+}
+
+.list-group-item{
+  border: none !important;
+  /* border-bottom: 1px solid gray !important; */
+}
+
+
+
+/* library sidebar */
+.categoriesTitle{
+  padding-left: 4%; 
+  margin-top:3%; 
+  /* border-bottom: solid grey 1px; */
+}
+
+
+
+
+
+/* Video page */
+.headWrapper {
+  margin-right: auto; 
+  margin-left:  auto;
+  max-width: 1500px; 
+  padding-right: 10px; 
+  padding-left:  10px; 
+  padding-top: 50px;
+}
+.navSpace{
+  display: block !important;
+}
+.formSpace{
+padding-left: 2.5em !important;
+padding-top: 5px;
+}
+
+
+/* breadcrumbs */
+.breadStyle{
+  /* padding-top: 10px; */
+  padding-bottom: 30px;
+  /* text-decoration: none; */
+}
+
+.breadStyle a{
+  text-decoration: none;
+  color: #A0A0A0;
+  /* color: black; */
+}
+.breadStyle a:hover{
+  color: gray;
+}
+
+/* readings page */
+.readButtons{
+  padding-left: 82px;
+}
+.readH2
+{
+  margin: 0; 
+  padding:0.1em; 
+  /* border-bottom: 1px black solid; */
+  margin-left: 29px;
+
+}
+
+
+
+.card{
+  border: none !important;
+}
+
+.cardRow{
+  padding-right: 11px;
+  padding-left:41px;
+}
+
+.cardRow a{
+  color: black;
+}
+.cardRow a:hover{
+  color: gray;
+}
+
+/* .card{
+  padding-right: 10px;
+} */
